@@ -1,0 +1,203 @@
+p {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+.tooltip-info {
+	background: rgb(0 0 0);
+}
+
+.custom-inner h4 {
+	padding-bottom: 0px;
+}
+
+.custom-inner p {
+	padding-bottom: 20px;
+}
+
+.slideshow-item .item {
+  overflow: hidden;
+  	margin: 0 auto;
+	position: relative;
+}
+
+.kenburn-wrap {
+  animation: move 40s ease infinite;
+  -ms-animation: move 40s ease infinite;
+  -webkit-animation: move 40s ease infinite;
+  -0-animation: move 40s ease infinite;
+  -moz-animation: move 40s ease infinite;
+  
+}
+
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform-origin: bottom left;
+    -moz-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    -o-transform-origin: bottom left;
+    transform-origin: bottom left;
+    transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    /* IE 9 */
+    
+    -webkit-transform: scale(1.0);
+    /* Safari and Chrome */
+    
+    -o-transform: scale(1.0);
+    /* Opera */
+    
+    -moz-transform: scale(1.0);
+    /* Firefox */
+  }
+  100% {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    
+    -webkit-transform: scale(1.2);
+    /* Safari and Chrome */
+    
+    -o-transform: scale(1.2);
+    /* Opera */
+    
+    -moz-transform: scale(1.2);
+    /* Firefox */
+  }
+}
+
+.process-box:before,
+.section-title.dec-title span:before {
+	height: 3px;
+}
+
+.creat-list li a, .text-link {
+	font-weight: 600;
+}
+
+.show-info span,
+.btn,
+.custom-inner ul li,
+.hid-sidebar p, .details-container p {
+	font-size: 16px;
+}
+
+.hero-scroll-link,
+.customNavigation a {
+	background: #000;
+}
+
+.hid-sidebar {
+	cursor: auto!important;
+}
+
+.custom-skillbar-title span {
+	font-size: 13px;
+    margin-top: 14px;
+    padding-bottom: 10px;
+}
+
+.footer-title_logo {
+    position: fixed;
+	width:200px;
+	top: 480px;
+	padding-top:26px;
+    cursor: default;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -o-transform-origin: left top;
+    transform-origin: left top;
+	z-index:12;
+}
+.footer-title_logo:before {
+	content:'';
+	position:absolute;
+	bottom:-23px;
+	width:1px;
+	height:50px;
+	left:0;
+	background:rgba(255,255,255,0.21);
+}
+.footer-title_logo h2  {
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	font-family: 'Muli', sans-serif;
+	font-weight:600;
+}
+
+.caption p {
+	color: #676767;
+    font-size: 11px;
+}
+
+.hero-wrap-item h3, .hero-wrap-item h3 a {
+	font-size: 30px;
+	letter-spacing: 15px;
+}
+
+.go-down {
+	animation: movedown 2s ease infinite;
+  -ms-animation: movedown 2s ease infinite;
+  -webkit-animation: movedown 2s ease infinite;
+  -0-animation: movedown 2s ease infinite;
+  -moz-animation: movedown 2s ease infinite;
+}
+
+@-webkit-keyframes movedown {
+  0% {
+    -webkit-margin-top: 0px;
+    -moz-margin-top: 0px;
+    -ms-margin-top: 0px;
+    -o-margin-top: 0px;
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 20px;
+    -ms-margin-top: 20px;
+    /* IE 9 */
+    
+    -webkit-margin-top: 20px;
+    /* Safari and Chrome */
+    
+    -o-margin-top: 20px;
+    /* Opera */
+    
+    -moz-margin-top: 20px;
+    /* Firefox */
+  }
+}
+
+@media(max-width: 991px) {
+  .contact-info {
+    text-align: center;
+  }
+}
+
+.cstm-footer_logo {
+  padding-bottom: 30px;
+}
+
+.cstm-footer_logo .footer-logo, .cstm-footer_logo .footer-logo p {
+  text-align: center;
+  max-width: none;
+}
+
+.btn {
+  padding: 15px 26px;
+  letter-spacing: 2px;
+}
+
+.team-info h4 {
+  font-size: 13px;
+}
