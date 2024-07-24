@@ -1,0 +1,31 @@
+.team__area-6 .sec-title-wrapper {
+	max-width: 650px;
+}
+
+.team__slide img {
+	width: 70%;
+}
+
+.sec-title-6 {
+	font-size: 40px;
+}
+
+.development__img img {
+	height: 100%;
+}
+
+.service__area-7 {
+	background-color: transparent;
+}
+
+.swiper-slide .portfolio__slide-3 a img {
+	opacity: 0;
+}
+
+.swiper-slide.swiper-slide-active .portfolio__slide-3 a img {
+	opacity: 1;
+}
+
+.our_team img {
+	width: 100%;
+}
